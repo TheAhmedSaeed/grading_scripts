@@ -36,6 +36,8 @@ with open('grades.csv', mode='w') as grades_file:
         feedback =""
         for index in listOfIndexes:
             feedback = feedback +  strippedStringsList[index + 1] + "\n"
-        writer.writerow([hwPath[0:10],soup.h4.string,feedback])
+        studentId = hwPath[0:10]
+        finalGrade = soup.h4.string[-13:-1]
+        writer.writerow([studentId,finalGrade,feedback])
 
 print("Done ;) run 'open grades.csv' to see the files" )
