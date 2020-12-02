@@ -1,6 +1,6 @@
 # grading_scripts
 
-* 
+
 1. As you grade from the notebook, write the feedback in the space available for the feedback. 
 2. It is preferable to add the question number as part of the feedback (e.g. q1 you had a miss spelled word. 
 3. After you are done with all the grading and the writing the feedback, run the command provided by Dr. Ala Elldiin.
